@@ -5,18 +5,16 @@ class HomePageTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Column(
-        children: [
-          Text(''),
-          SizedBox(
-            height: 10.0,
-          ),
-          Row(
-            children: [],
-          )
-        ],
-      ),
+    return const Column(
+      children: [
+        Text(''),
+        SizedBox(
+          height: 10.0,
+        ),
+        Row(
+          children: [],
+        )
+      ],
     );
   }
 }
