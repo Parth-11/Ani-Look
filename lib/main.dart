@@ -10,6 +10,11 @@ class AniLook extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return HomePage();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Ani-Look'),
+      ),
+      body: const HomePage(),
+    );
   }
 }
